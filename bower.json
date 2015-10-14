@@ -1,8 +1,8 @@
 {
-  "name": "angular-ui-seed",
+  "name": "lu-website",
   "description": "A starter project for AngularJS",
   "version": "0.0.2",
-  "homepage": "https://github.com/dokko1230/angular-ui-seed",
+  "homepage": "https://github.com/luyang-gai/lu-website",
   "license": "MIT",
   "dependencies": {
     "angular": "latest",
