@@ -1,8 +1,9 @@
-<div class="container">
-  <div class="row">
+<div class="nav-bar-container">
+  <div class="nav-bar-header-row">
     <ul class="nav">
       <li ng-repeat="item in items" class="navbar-item" ui-sref-active="navbar-active">
-        <a ui-sref="app.{{ item | lowercase }}">{{ item }}</a>
+        <!--a ui-sref="app.{{ item | lowercase }}">{{ item }}</a-->
+        <div class="section-title">{{item}}</div>
       </li>
     </ul>
     

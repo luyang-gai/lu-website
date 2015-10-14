@@ -26,8 +26,20 @@ module.exports = function(grunt) {
     connect: {
       example: {
         port: 8000,
-        base: 'app'
+        base: 'app',
+        keepalive: true,
+        livereload: true
       }
+    },
+    watch: {
+      scripts: {
+        files: ['app/css/app.scss'],
+        tasks: ['sass'],
+        options: {
+          livereload: true,
+          spawn: false,
+        },
+      },
     }
   });
 
@@ -35,6 +47,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-connect');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
   grunt.registerTask('default', ['sass', 'connect:example']);
