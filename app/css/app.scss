@@ -1,6 +1,6 @@
 /* app css stylesheet */
 html {
-  height: 100%;
+  height:100%;
 }
 
 .ui-view-nav {
@@ -13,6 +13,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
   margin: 0;
   padding: 0;
   display: flex;
@@ -26,21 +27,22 @@ body {
 }
 
 .main {
-  clear: both;
-  height: 100%;
+  clear:both;
+  height:100%
 }
 
 .nav {
   list-style-type: none;
   padding: 0;
-}
-.nav li {
-  float: left;
-  margin-right: 10px;
+
+  li {
+    float: left;
+    margin-right: 10px;
+  }
 }
 
 .nav:after {
-  clear: both;
+  clear:both;
 }
 
 /*
@@ -55,10 +57,11 @@ home-bar
   align-items: center;
   color: white;
   flex-direction: column;
-}
-.home-bar .icon-bar img {
-  width: 75px;
-  opacity: 1;
+
+  .icon-bar img {
+    width: 75px;
+    opacity: 1;
+  }
 }
 
 img {
