@@ -8,6 +8,7 @@ html {
   height:100%;
 }
 
+/* nav-bar */
 .ui-view-nav {
   background-color: $main-color;
   display: flex;
@@ -50,18 +51,57 @@ body {
   height: 100%;
   flex-direction: column;
 }
-
 .container {
   height: 100%;
   margin: 0 auto;
 }
 
+//test
 .main {
   clear:both;
   height:100%;
 
   .container {
     background-color: $complement-color;
+
+    .row {
+      height: 100%;
+
+      .template-view {
+        height: 100%;
+        display: flex;
+
+        //.name {
+        //  font-weight: bold;
+        //  font-size: 26px;
+        //  display:flex;
+        //  margin:auto;
+        //}
+        //
+        //.main-statement {
+        //  display: flex;
+        //  margin: auto;
+        //  width: 50%;
+        //}
+        .name-and-statement {
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+          width: 50%;
+          color: $main-color;
+
+          .name {
+            margin: auto;
+            font-width: bold;
+            font-size: 26px;
+          }
+
+          .line {
+            margin: auto;
+          }
+        }
+      }
+    }
   }
 }
 

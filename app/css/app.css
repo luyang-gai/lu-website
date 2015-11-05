@@ -3,6 +3,7 @@ html {
   height: 100%;
 }
 
+/* nav-bar */
 .ui-view-nav {
   background-color: #AA8339;
   display: flex;
@@ -51,6 +52,28 @@ body {
 }
 .main .container {
   background-color: #2D4471;
+}
+.main .container .row {
+  height: 100%;
+}
+.main .container .row .template-view {
+  height: 100%;
+  display: flex;
+}
+.main .container .row .template-view .name-and-statement {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  color: #AA8339;
+}
+.main .container .row .template-view .name-and-statement .name {
+  margin: auto;
+  font-width: bold;
+  font-size: 26px;
+}
+.main .container .row .template-view .name-and-statement .line {
+  margin: auto;
 }
 
 .nav {
